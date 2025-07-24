@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "gittest-2-client-side-solution",
+    "id": "524f5b42-9139-4d9a-95e8-e4d482f9b6cd",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.20.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "gittest2 description"
+      },
+      "longDescription": {
+        "default": "gittest2 description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "gittest-2 Feature",
+        "description": "The feature that activates elements of the gittest-2 solution.",
+        "id": "5feae375-1a72-4a34-b16c-dd226e1c1b65",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/gittest-2.sppkg"
+  }
+}
